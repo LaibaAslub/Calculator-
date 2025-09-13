@@ -9,13 +9,13 @@ while True:
     b = int(input("Enter the second number: "))
     
     if op == "+":
-        print("Result:", sum(a, b))
+        print("Result :", sum(a, b))
     elif op == "-":
-        print("Result:", sub(a, b))
+        print("Result :", sub(a, b))
     elif op == "*":
-        print("Result:", mul(a, b))
+        print("Result :", mul(a, b))
     elif op == "/":
-        print("Result:", div(a, b))
+        print("Result :", div(a, b))
     else:
         print("Invalid operator! Please use +, -, *, or /.")
     
